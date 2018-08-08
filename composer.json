@@ -1,0 +1,21 @@
+{
+    "name": "frizz925/learn-rabbitmq",
+    "description": "RabbitMQ learning resources",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Izra",
+            "email": "izra@airpaz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Enqueue\\": "src/Enqueue"
+        }
+    },
+    "require": {
+        "enqueue/null": "^0.8.0@dev"
+    }
+}
